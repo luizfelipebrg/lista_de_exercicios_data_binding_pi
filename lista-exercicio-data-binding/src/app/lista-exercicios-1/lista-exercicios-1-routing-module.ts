@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CalculandoComInterpolation } from './calculando-com-interpolation/calculando-com-interpolation';
 import { ImagemDinamica } from './imagem-dinamica/imagem-dinamica';
+import { BotaoHabilitadoOuDesabilitado } from './botao-habilitado-ou-desabilitado/botao-habilitado-ou-desabilitado';
 
 const routes: Routes = [
 
@@ -14,6 +15,9 @@ const routes: Routes = [
 },
 {
   path: 'imagem-dinamica', component: ImagemDinamica
+},
+{
+  path: 'botao-habilitado-ou-desabilitado', component: BotaoHabilitadoOuDesabilitado
 }
 ];
 
