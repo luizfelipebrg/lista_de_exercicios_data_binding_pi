@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 })
 export class CalculandoComInterpolation {
 
-  produto = 'teclado';
-  preco = 150;
-  quantidade = 3;
+  produto = '';
+  preco = 0;
+  quantidade = 0;
 
 }
