@@ -4,9 +4,10 @@ import { FormsModule } from '@angular/forms';
 
 import { ListaExercicios1RoutingModule } from './lista-exercicios-1-routing-module';
 import { ApresentacaoDoUsuario } from './apresentacao-do-usuario/apresentacao-do-usuario';
+import { CalculandoComInterpolation } from './calculando-com-interpolation/calculando-com-interpolation';
 
 @NgModule({
-  declarations: [ApresentacaoDoUsuario],
+  declarations: [ApresentacaoDoUsuario, CalculandoComInterpolation],
   imports: [CommonModule, ListaExercicios1RoutingModule, FormsModule],
 })
 export class ListaExercicios1Module {}
