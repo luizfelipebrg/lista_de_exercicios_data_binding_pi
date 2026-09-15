@@ -2,6 +2,7 @@ import{ ApresentacaoDoUsuario } from './apresentacao-do-usuario/apresentacao-do-
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CalculandoComInterpolation } from './calculando-com-interpolation/calculando-com-interpolation';
+import { ImagemDinamica } from './imagem-dinamica/imagem-dinamica';
 
 const routes: Routes = [
 
@@ -10,6 +11,9 @@ const routes: Routes = [
 },
 {
   path: 'calculando-com-interpolation', component: CalculandoComInterpolation
+},
+{
+  path: 'imagem-dinamica', component: ImagemDinamica
 }
 ];
 
