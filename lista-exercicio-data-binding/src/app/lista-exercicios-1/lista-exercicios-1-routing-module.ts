@@ -5,6 +5,7 @@ import { CalculandoComInterpolation } from './calculando-com-interpolation/calcu
 import { ImagemDinamica } from './imagem-dinamica/imagem-dinamica';
 import { BotaoHabilitadoOuDesabilitado } from './botao-habilitado-ou-desabilitado/botao-habilitado-ou-desabilitado';
 import { ContadorDeCurtidas } from './contador-de-curtidas/contador-de-curtidas';
+import { ContadorCompleto } from './contador-completo/contador-completo';
 
 const routes: Routes = [
 
@@ -13,6 +14,7 @@ const routes: Routes = [
 { path: 'imagem-dinamica', component: ImagemDinamica },
 { path: 'botao-habilitado-ou-desabilitado', component: BotaoHabilitadoOuDesabilitado },
 { path: 'contador-de-curtidas', component: ContadorDeCurtidas },
+{ path: 'contador-completo', component: ContadorCompleto },
 
 ];
 

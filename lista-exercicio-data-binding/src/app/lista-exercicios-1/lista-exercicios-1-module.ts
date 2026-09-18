@@ -8,6 +8,7 @@ import { CalculandoComInterpolation } from './calculando-com-interpolation/calcu
 import { ImagemDinamica } from './imagem-dinamica/imagem-dinamica';
 import { BotaoHabilitadoOuDesabilitado } from './botao-habilitado-ou-desabilitado/botao-habilitado-ou-desabilitado';
 import { ContadorDeCurtidas } from './contador-de-curtidas/contador-de-curtidas';
+import { ContadorCompleto } from './contador-completo/contador-completo';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { ContadorDeCurtidas } from './contador-de-curtidas/contador-de-curtidas'
     ImagemDinamica,
     BotaoHabilitadoOuDesabilitado,
     ContadorDeCurtidas,
+    ContadorCompleto,
   ],
   imports: [CommonModule, ListaExercicios1RoutingModule, FormsModule],
 })
