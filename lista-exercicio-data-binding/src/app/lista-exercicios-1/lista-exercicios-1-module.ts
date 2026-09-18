@@ -7,6 +7,7 @@ import { ApresentacaoDoUsuario } from './apresentacao-do-usuario/apresentacao-do
 import { CalculandoComInterpolation } from './calculando-com-interpolation/calculando-com-interpolation';
 import { ImagemDinamica } from './imagem-dinamica/imagem-dinamica';
 import { BotaoHabilitadoOuDesabilitado } from './botao-habilitado-ou-desabilitado/botao-habilitado-ou-desabilitado';
+import { ContadorDeCurtidas } from './contador-de-curtidas/contador-de-curtidas';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { BotaoHabilitadoOuDesabilitado } from './botao-habilitado-ou-desabilitad
     CalculandoComInterpolation,
     ImagemDinamica,
     BotaoHabilitadoOuDesabilitado,
+    ContadorDeCurtidas,
   ],
   imports: [CommonModule, ListaExercicios1RoutingModule, FormsModule],
 })
