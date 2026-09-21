@@ -7,6 +7,7 @@ import { BotaoHabilitadoOuDesabilitado } from './botao-habilitado-ou-desabilitad
 import { ContadorDeCurtidas } from './contador-de-curtidas/contador-de-curtidas';
 import { ContadorCompleto } from './contador-completo/contador-completo';
 import { NomeEmTempoReal } from './nome-em-tempo-real/nome-em-tempo-real';
+import { CadastroDeProduto } from './cadastro-de-produto/cadastro-de-produto';
 
 const routes: Routes = [
 
@@ -17,6 +18,7 @@ const routes: Routes = [
 { path: 'contador-de-curtidas', component: ContadorDeCurtidas },
 { path: 'contador-completo', component: ContadorCompleto },
 { path: 'nome-em-tempo-real', component: NomeEmTempoReal },
+{ path: 'cadastro-de-produto', component: CadastroDeProduto },
 
 ];
 

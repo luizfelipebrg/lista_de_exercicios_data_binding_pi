@@ -10,6 +10,7 @@ import { BotaoHabilitadoOuDesabilitado } from './botao-habilitado-ou-desabilitad
 import { ContadorDeCurtidas } from './contador-de-curtidas/contador-de-curtidas';
 import { ContadorCompleto } from './contador-completo/contador-completo';
 import { NomeEmTempoReal } from './nome-em-tempo-real/nome-em-tempo-real';
+import { CadastroDeProduto } from './cadastro-de-produto/cadastro-de-produto';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { NomeEmTempoReal } from './nome-em-tempo-real/nome-em-tempo-real';
     ContadorDeCurtidas,
     ContadorCompleto,
     NomeEmTempoReal,
+    CadastroDeProduto,
   ],
   imports: [CommonModule, ListaExercicios1RoutingModule, FormsModule],
 })
