@@ -1,0 +1,10 @@
+<p>Produto: {{produto}}</p>
+<p>Preço: {{preco | currency:'BRL'}}</p>
+<p>Quantidade: {{quantidade}}</p>
+<p>Total: {{preco * quantidade | currency:'BRL'}}</p>
+
+<button (click)="diminuirQuantidade()" [disabled]="quantidade === 1">-</button>
+<button (click)="aumentarQuantidade()">+</button>
+<button (click)="adicionarAoCarrinho()">Adicionar ao carrinho</button>
+
+<p>{{mensagem}}</p>
