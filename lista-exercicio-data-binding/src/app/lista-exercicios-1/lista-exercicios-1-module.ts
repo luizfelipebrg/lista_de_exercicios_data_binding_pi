@@ -12,6 +12,7 @@ import { ContadorCompleto } from './contador-completo/contador-completo';
 import { NomeEmTempoReal } from './nome-em-tempo-real/nome-em-tempo-real';
 import { CadastroDeProduto } from './cadastro-de-produto/cadastro-de-produto';
 import { ControleDeEstoque } from './controle-de-estoque/controle-de-estoque';
+import { LoginSimulado } from './login-simulado/login-simulado';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { ControleDeEstoque } from './controle-de-estoque/controle-de-estoque';
     NomeEmTempoReal,
     CadastroDeProduto,
     ControleDeEstoque,
+    LoginSimulado,
   ],
   imports: [CommonModule, ListaExercicios1RoutingModule, FormsModule],
 })

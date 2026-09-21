@@ -9,6 +9,7 @@ import { ContadorCompleto } from './contador-completo/contador-completo';
 import { NomeEmTempoReal } from './nome-em-tempo-real/nome-em-tempo-real';
 import { CadastroDeProduto } from './cadastro-de-produto/cadastro-de-produto';
 import { ControleDeEstoque } from './controle-de-estoque/controle-de-estoque';
+import { LoginSimulado } from './login-simulado/login-simulado';
 
 const routes: Routes = [
 
@@ -21,6 +22,7 @@ const routes: Routes = [
 { path: 'nome-em-tempo-real', component: NomeEmTempoReal },
 { path: 'cadastro-de-produto', component: CadastroDeProduto },
 { path: 'controle-de-estoque', component: ControleDeEstoque },
+{ path: 'login-simulado', component: LoginSimulado },
 
 ];
 
