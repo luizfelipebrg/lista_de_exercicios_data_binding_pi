@@ -11,6 +11,7 @@ import { CadastroDeProduto } from './cadastro-de-produto/cadastro-de-produto';
 import { ControleDeEstoque } from './controle-de-estoque/controle-de-estoque';
 import { LoginSimulado } from './login-simulado/login-simulado';
 import { CarrinhoDeCompras } from './carrinho-de-compras/carrinho-de-compras';
+import { MatriculaEmCurso } from './matricula-em-curso/matricula-em-curso';
 
 const routes: Routes = [
 
@@ -25,6 +26,7 @@ const routes: Routes = [
 { path: 'controle-de-estoque', component: ControleDeEstoque },
 { path: 'login-simulado', component: LoginSimulado },
 { path: 'carrinho-de-compras', component: CarrinhoDeCompras },
+{ path: 'matricula-em-curso', component: MatriculaEmCurso },
 
 ];
 

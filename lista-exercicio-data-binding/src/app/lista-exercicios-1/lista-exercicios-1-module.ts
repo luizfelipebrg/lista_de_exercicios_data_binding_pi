@@ -14,6 +14,7 @@ import { CadastroDeProduto } from './cadastro-de-produto/cadastro-de-produto';
 import { ControleDeEstoque } from './controle-de-estoque/controle-de-estoque';
 import { LoginSimulado } from './login-simulado/login-simulado';
 import { CarrinhoDeCompras } from './carrinho-de-compras/carrinho-de-compras';
+import { MatriculaEmCurso } from './matricula-em-curso/matricula-em-curso';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { CarrinhoDeCompras } from './carrinho-de-compras/carrinho-de-compras';
     ControleDeEstoque,
     LoginSimulado,
     CarrinhoDeCompras,
+    MatriculaEmCurso,
   ],
   imports: [CommonModule, ListaExercicios1RoutingModule, FormsModule],
 })
