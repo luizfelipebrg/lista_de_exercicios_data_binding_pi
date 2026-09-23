@@ -1,0 +1,7 @@
+<div *ngIf="usuarioLogado; else mensagem">
+    <p>usuario logado</p>
+</div> 
+
+<ng-template #mensagem>
+ <p>Usuario nao autenticado</p>
+</ng-template>
