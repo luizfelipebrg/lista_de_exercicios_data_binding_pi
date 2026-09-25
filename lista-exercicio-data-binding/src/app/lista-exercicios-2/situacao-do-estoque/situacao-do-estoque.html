@@ -1,0 +1,19 @@
+<main>
+    Produto selecionado: {{nomeProduto}} <br><br>
+    Quantidade atual em estoque é: {{quantidadeEstoque}}
+
+<div *ngIf="(quantidadeEstoque > 0)">
+    Produto disponivel <br><br>
+</div>
+
+<div *ngIf="(quantidadeEstoque === 0)">
+    produto indisponivel, sem estoque no momento! <br><br>
+
+</div>
+
+<div>
+    <button (click)="adicionarProduto()">Adicionar</button>
+    <button (click)="removerProduto()" [disabled]="quantidadeEstoque === 0">Remover</button>
+</div>
+
+</main>
