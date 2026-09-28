@@ -1,0 +1,27 @@
+<p>Total de nomes: {{usuarios.length}}</p>
+
+<div>
+
+ <ul>
+    <li *ngFor="let usuario of usuarios; let i = index; let primeiro = first; let ultimo = last">
+      Posição: {{ i + 1 }} - {{ usuario.nome }}
+      {{ primeiro ? ' - Primeiro da lista' : '' }}
+      {{ ultimo ? ' - Último da lista' : '' }}
+    </li>
+</ul>   
+
+<p *ngIf="usuarios.length === 0">
+    Nenhum nome cadastrado  
+</p>
+
+
+</div>
+
+
+<div>
+
+<button (click)="removerUsuario()">Remover</button>
+<button (click)="limpaLista()">Limpar</button>
+<button (click)="restaurarLista()">Restaurar</button>
+
+</div>
