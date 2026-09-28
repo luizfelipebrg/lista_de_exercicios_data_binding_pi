@@ -7,6 +7,7 @@ import { SituacaoDoEstoque } from './situacao-do-estoque/situacao-do-estoque';
 import { ListaDeNomes } from './lista-de-nomes/lista-de-nomes';
 import { TratamentoDeListaVazia } from './tratamento-de-lista-vazia/tratamento-de-lista-vazia';
 import { CoresAlternadas } from './cores-alternadas/cores-alternadas';
+import { ListaDeProdutos } from './lista-de-produtos/lista-de-produtos';
 
 const routes: Routes = [
 
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'lista-de-nomes', component: ListaDeNomes },
   { path: 'tratamento-de-lista-vazia', component: TratamentoDeListaVazia },
   { path: 'cores-alternadas', component: CoresAlternadas },
+  { path: 'lista-de-produtos', component: ListaDeProdutos },
 
 ];
 
