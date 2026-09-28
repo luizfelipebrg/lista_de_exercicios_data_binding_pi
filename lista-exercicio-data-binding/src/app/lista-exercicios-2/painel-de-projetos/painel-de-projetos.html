@@ -44,3 +44,7 @@
     <li>Não existem projetos.</li>
   }
 </ul>
+
+@if (ocultarConcluidos && projetos.length > 0 && totalConcluidos === projetos.length) {
+  <p>Não existem projetos.</p>
+}

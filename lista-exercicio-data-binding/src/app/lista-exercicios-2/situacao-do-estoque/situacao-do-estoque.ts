@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
   templateUrl: './situacao-do-estoque.html',
 })
 export class SituacaoDoEstoque {
-  nomeProduto: string = 'teclado';
+  nomeProduto: string = 'Teclado';
   quantidadeEstoque: number = 5;
 
   adicionarProduto() {

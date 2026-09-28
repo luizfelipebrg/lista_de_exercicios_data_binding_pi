@@ -3,16 +3,16 @@
 <div>
 
  <ul>
-    <li *ngFor="let usuario of usuarios; let i = index; let primeiro = first; let ultimo = last">
-      Posição: {{ i + 1 }} - {{ usuario.nome }}
-      {{ primeiro ? ' - Primeiro da lista' : '' }}
-      {{ ultimo ? ' - Último da lista' : '' }}
-    </li>
+    @for (usuario of usuarios; track usuario.id; let i = $index; let primeiro = $first; let ultimo = $last) {
+      <li>
+        Posição: {{ i + 1 }} - {{ usuario.nome }}
+        {{ primeiro ? ' - Primeiro da lista' : '' }}
+        {{ ultimo ? ' - Último da lista' : '' }}
+      </li>
+    } @empty {
+      <li>Nenhum nome cadastrado</li>
+    }
 </ul>   
-
-<p *ngIf="usuarios.length === 0">
-    Nenhum nome cadastrado  
-</p>
 
 
 </div>

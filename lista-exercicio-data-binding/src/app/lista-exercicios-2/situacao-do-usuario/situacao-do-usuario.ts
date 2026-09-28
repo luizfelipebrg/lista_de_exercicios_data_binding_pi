@@ -9,4 +9,7 @@ import { Component } from '@angular/core';
 export class SituacaoDoUsuario {
   usuarioLogado: boolean = true;
 
+  alternarUsuario() {
+    this.usuarioLogado = !this.usuarioLogado;
+  }
 }

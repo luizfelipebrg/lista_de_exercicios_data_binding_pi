@@ -4,7 +4,7 @@
   <li *ngFor="let produto of produtos">
     <p [ngClass]="{ promocao: produto.promocao }">{{ produto.nome }}</p>
     <p [ngStyle]="{ color: produto.promocao ? '#c62828' : '#222' }">
-      Preço: {{ produto.preco | currency:'BRL':'symbol':'1.2-2':'pt-BR' }}
+      Preço: {{ produto.preco }}
     </p>
     <p>Quantidade disponível: {{ produto.quantidade }}</p>
     <p *ngIf="produto.promocao">Produto em promoção</p>

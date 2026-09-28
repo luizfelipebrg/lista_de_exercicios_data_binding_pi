@@ -1,9 +1,9 @@
 <p>Idade atual: {{idade}}</p>
 
-@if (idade <= 12) {
-    <p>criança</p>
+@if (idade < 12) {
+    <p>Criança</p>
 
-} @else if (idade > 12 && idade < 18) {
+} @else if (idade >= 12 && idade < 18) {
     <p>Adolescente</p>
 
 } @else if (idade >= 18 && idade < 60) {

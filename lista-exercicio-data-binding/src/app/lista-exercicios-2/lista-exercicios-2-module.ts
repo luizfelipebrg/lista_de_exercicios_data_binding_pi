@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { CommonModule, registerLocaleData } from '@angular/common';
+import localePt from '@angular/common/locales/pt';
 import { FormsModule } from '@angular/forms';
 
 import { ListaExercicios2RoutingModule } from './lista-exercicios-2-routing-module';
@@ -18,6 +19,8 @@ import { CadastroDeProdutos } from './cadastro-de-produtos/cadastro-de-produtos'
 import { ListaDeTarefas } from './lista-de-tarefas/lista-de-tarefas';
 import { SintaxeModerna } from './sintaxe-moderna/sintaxe-moderna';
 import { PainelDeProjetos } from './painel-de-projetos/painel-de-projetos';
+
+registerLocaleData(localePt, 'pt-BR');
 
 @NgModule({
   declarations: [
