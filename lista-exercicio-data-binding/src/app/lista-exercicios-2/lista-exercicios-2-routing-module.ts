@@ -8,6 +8,7 @@ import { ListaDeNomes } from './lista-de-nomes/lista-de-nomes';
 import { TratamentoDeListaVazia } from './tratamento-de-lista-vazia/tratamento-de-lista-vazia';
 import { CoresAlternadas } from './cores-alternadas/cores-alternadas';
 import { ListaDeProdutos } from './lista-de-produtos/lista-de-produtos';
+import { ClassificacaoDeProdutos } from './classificacao-de-produtos/classificacao-de-produtos';
 
 const routes: Routes = [
 
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path: 'tratamento-de-lista-vazia', component: TratamentoDeListaVazia },
   { path: 'cores-alternadas', component: CoresAlternadas },
   { path: 'lista-de-produtos', component: ListaDeProdutos },
+  { path: 'classificacao-de-produtos', component: ClassificacaoDeProdutos },
 
 ];
 
