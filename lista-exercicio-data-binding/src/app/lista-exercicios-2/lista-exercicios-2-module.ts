@@ -11,6 +11,7 @@ import { TratamentoDeListaVazia } from './tratamento-de-lista-vazia/tratamento-d
 import { CoresAlternadas } from './cores-alternadas/cores-alternadas';
 import { ListaDeProdutos } from './lista-de-produtos/lista-de-produtos';
 import { ClassificacaoDeProdutos } from './classificacao-de-produtos/classificacao-de-produtos';
+import { PromocaoDeProdutos } from './promocao-de-produtos/promocao-de-produtos';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { ClassificacaoDeProdutos } from './classificacao-de-produtos/classificac
     CoresAlternadas,
     ListaDeProdutos,
     ClassificacaoDeProdutos,
+    PromocaoDeProdutos,
   ],
   imports: [CommonModule, ListaExercicios2RoutingModule],
 })
