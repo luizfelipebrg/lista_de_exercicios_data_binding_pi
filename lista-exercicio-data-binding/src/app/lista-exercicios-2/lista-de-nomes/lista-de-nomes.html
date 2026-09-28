@@ -1,0 +1,11 @@
+<div>
+    
+<ul>
+    <li *ngFor="let usuario of usuarios; let i = index; let primeiro = first; let ultimo = last">
+      Posição: {{ i + 1 }} - {{ usuario.nome }}
+      {{ primeiro ? ' - Primeiro da lista' : '' }}
+      {{ ultimo ? ' - Último da lista' : '' }}
+    </li>
+</ul>
+
+</div>
