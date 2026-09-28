@@ -8,6 +8,7 @@ import { VerificacaoDeIdade } from './verificacao-de-idade/verificacao-de-idade'
 import { SituacaoDoEstoque } from './situacao-do-estoque/situacao-do-estoque';
 import { ListaDeNomes } from './lista-de-nomes/lista-de-nomes';
 import { TratamentoDeListaVazia } from './tratamento-de-lista-vazia/tratamento-de-lista-vazia';
+import { CoresAlternadas } from './cores-alternadas/cores-alternadas';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { TratamentoDeListaVazia } from './tratamento-de-lista-vazia/tratamento-d
     SituacaoDoEstoque,
     ListaDeNomes,
     TratamentoDeListaVazia,
+    CoresAlternadas,
   ],
   imports: [CommonModule, ListaExercicios2RoutingModule],
 })

@@ -1,0 +1,15 @@
+<h2>Cores alternadas</h2>
+
+<ul>
+  <li
+    *ngFor="let disciplina of disciplinas; let i = index; let primeiro = first; let ultimo = last"
+    [ngClass]="{
+      'posicao-par': (i + 1) % 2 === 0,
+      'posicao-impar': (i + 1) % 2 !== 0,
+      'primeira-disciplina': primeiro,
+      'ultima-disciplina': ultimo
+    }"
+  >
+    {{ disciplina }}
+  </li>
+</ul>
