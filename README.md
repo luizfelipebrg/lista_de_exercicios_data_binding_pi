@@ -1,5 +1,3 @@
-# Lista de Exercícios Data Binding
+# Lista de Exercícios Diretivas Angular
 
-Projeto desenvolvido para praticar Data Binding com Angular.
-
-A atividade contém exercícios de Interpolation, Property Binding, Event Binding e Two-Way Binding.
+Projeto desenvolvido para praticar diretivas e controle de fluxo com Angular.

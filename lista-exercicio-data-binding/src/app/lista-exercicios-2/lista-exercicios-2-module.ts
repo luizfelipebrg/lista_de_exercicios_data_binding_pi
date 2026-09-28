@@ -17,6 +17,7 @@ import { ProdutosDisponiveis } from './produtos-disponiveis/produtos-disponiveis
 import { CadastroDeProdutos } from './cadastro-de-produtos/cadastro-de-produtos';
 import { ListaDeTarefas } from './lista-de-tarefas/lista-de-tarefas';
 import { SintaxeModerna } from './sintaxe-moderna/sintaxe-moderna';
+import { PainelDeProjetos } from './painel-de-projetos/painel-de-projetos';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { SintaxeModerna } from './sintaxe-moderna/sintaxe-moderna';
     CadastroDeProdutos,
     ListaDeTarefas,
     SintaxeModerna,
+    PainelDeProjetos,
   ],
   imports: [CommonModule, FormsModule, ListaExercicios2RoutingModule],
 })

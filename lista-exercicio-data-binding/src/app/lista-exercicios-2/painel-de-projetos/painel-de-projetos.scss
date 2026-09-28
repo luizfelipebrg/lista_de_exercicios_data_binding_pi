@@ -1,0 +1,34 @@
+ul {
+  padding-left: 24px;
+}
+
+li {
+  margin: 12px 0;
+  padding: 8px;
+}
+
+.status-planejamento {
+  border-left: 4px solid #526b73;
+}
+
+.status-desenvolvimento {
+  border-left: 4px solid #176b87;
+}
+
+.status-testes {
+  border-left: 4px solid #ad6a00;
+}
+
+.status-concluido {
+  border-left: 4px solid #2e7d32;
+}
+
+.nota-alta {
+  color: #246b2b;
+  font-weight: bold;
+}
+
+.nota-baixa {
+  color: #b71c1c;
+  font-weight: bold;
+}

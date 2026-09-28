@@ -14,6 +14,7 @@ import { ProdutosDisponiveis } from './produtos-disponiveis/produtos-disponiveis
 import { CadastroDeProdutos } from './cadastro-de-produtos/cadastro-de-produtos';
 import { ListaDeTarefas } from './lista-de-tarefas/lista-de-tarefas';
 import { SintaxeModerna } from './sintaxe-moderna/sintaxe-moderna';
+import { PainelDeProjetos } from './painel-de-projetos/painel-de-projetos';
 
 const routes: Routes = [
 
@@ -31,6 +32,7 @@ const routes: Routes = [
   { path: 'cadastro-de-produtos', component: CadastroDeProdutos },
   { path: 'lista-de-tarefas', component: ListaDeTarefas },
   { path: 'sintaxe-moderna', component: SintaxeModerna },
+  { path: 'painel-de-projetos', component: PainelDeProjetos },
 
 ];
 
