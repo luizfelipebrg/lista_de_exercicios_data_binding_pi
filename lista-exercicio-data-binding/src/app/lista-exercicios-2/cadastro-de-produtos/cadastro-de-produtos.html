@@ -1,0 +1,22 @@
+<h2>Cadastro simplificado</h2>
+
+<label>
+  Nome:
+  <input type="text" [(ngModel)]="nomeProduto" name="nomeProduto">
+</label>
+
+<label>
+  Quantidade:
+  <input type="number" [(ngModel)]="quantidadeProduto" name="quantidadeProduto">
+</label>
+
+<button (click)="cadastrarProduto()">Cadastrar</button>
+
+<p *ngIf="mensagemErro">{{ mensagemErro }}</p>
+
+<ul>
+  <li *ngFor="let produto of produtos">
+    {{ produto.nome }} - Quantidade: {{ produto.quantidade }}
+    <button (click)="excluirProduto(produto)">Excluir</button>
+  </li>
+</ul>

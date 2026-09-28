@@ -11,6 +11,7 @@ import { ListaDeProdutos } from './lista-de-produtos/lista-de-produtos';
 import { ClassificacaoDeProdutos } from './classificacao-de-produtos/classificacao-de-produtos';
 import { PromocaoDeProdutos } from './promocao-de-produtos/promocao-de-produtos';
 import { ProdutosDisponiveis } from './produtos-disponiveis/produtos-disponiveis';
+import { CadastroDeProdutos } from './cadastro-de-produtos/cadastro-de-produtos';
 
 const routes: Routes = [
 
@@ -25,6 +26,7 @@ const routes: Routes = [
   { path: 'classificacao-de-produtos', component: ClassificacaoDeProdutos },
   { path: 'promocao-de-produtos', component: PromocaoDeProdutos },
   { path: 'produtos-disponiveis', component: ProdutosDisponiveis },
+  { path: 'cadastro-de-produtos', component: CadastroDeProdutos },
 
 ];
 
