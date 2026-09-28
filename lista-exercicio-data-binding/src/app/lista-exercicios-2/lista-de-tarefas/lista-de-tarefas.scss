@@ -1,0 +1,20 @@
+li {
+  margin-bottom: 16px;
+  padding: 8px;
+}
+
+.prioridade-baixa {
+  border-left: 4px solid #2e7d32;
+}
+
+.prioridade-média {
+  border-left: 4px solid #a56b00;
+}
+
+.prioridade-alta {
+  border-left: 4px solid #c62828;
+}
+
+.tarefa-concluida {
+  background-color: #e6f4ea;
+}

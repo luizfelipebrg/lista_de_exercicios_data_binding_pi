@@ -15,6 +15,7 @@ import { ClassificacaoDeProdutos } from './classificacao-de-produtos/classificac
 import { PromocaoDeProdutos } from './promocao-de-produtos/promocao-de-produtos';
 import { ProdutosDisponiveis } from './produtos-disponiveis/produtos-disponiveis';
 import { CadastroDeProdutos } from './cadastro-de-produtos/cadastro-de-produtos';
+import { ListaDeTarefas } from './lista-de-tarefas/lista-de-tarefas';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { CadastroDeProdutos } from './cadastro-de-produtos/cadastro-de-produtos'
     PromocaoDeProdutos,
     ProdutosDisponiveis,
     CadastroDeProdutos,
+    ListaDeTarefas,
   ],
   imports: [CommonModule, FormsModule, ListaExercicios2RoutingModule],
 })
